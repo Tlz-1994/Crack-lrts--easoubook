@@ -21,7 +21,7 @@
 
 <div style={display: flex}>
 <img src="http://7xsim2.com1.z0.glb.clouddn.com/IMG_01662.PNG" width = 200px />
-<img src="http://7xsim2.com1.z0.glb.clouddn.com/IMG_01673.PNG" width = 200px />
+<img src="http://7xsim2.com1.z0.glb.clouddn.com/IMG_01673fg.PNG" width = 200px />
 <img src="http://7xsim2.com1.z0.glb.clouddn.com/IMG_01654.PNG" width = 200px />
 </div>
 
