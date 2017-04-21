@@ -20,9 +20,9 @@
 - 按照正常的写代码命名逻辑，猜测其方法可能为showAd,我们在所有的这些头文件中全局搜索该方法，果不其然。这里我以宜搜小说app举例子，破解过程中发现破解它广告的难度比较大。列举需要破解的广告(底部web广告，原生范围广告，开屏广告)，任务艰巨呀。
 
 <div style={display: flex}>
-<img src="./imgs/IMG_01662.png" width = 200px />
-<img src="./imgs/IMG_01673fg.png" width = 200px />
-<img src="./imgs/IMG_009iofjcv.png" width = 200px />
+<img src="http://a2.qpic.cn/psb?/V11PX8mv4Pxm5x/xrtwPtlg4xmTbvP7vfbpJE3KJxW3ItAe8g5yI3azZ4U!/b/dGkBAAAAAAAA&bo=gAJyBAAAAAADANE!&rf=viewer_4" width = 200px />
+<img src="http://a1.qpic.cn/psb?/V11PX8mv4Pxm5x/tyd8IFjPKaqIryX1k89NGBjv8P3LVchxCN3ElDEOGuw!/b/dGsBAAAAAAAA&bo=gAJyBAAAAAADB9Y!&rf=viewer_4" width = 200px />
+<img src="http://a1.qpic.cn/psb?/V11PX8mv4Pxm5x/HGh88GB5pFLoMYtpzUUsKza8ZX7XI6uhLeoE5fwnBvI!/b/dGsBAAAAAAAA&bo=gAJyBAAAAAADANE!&rf=viewer_4" width = 200px />
 </div>
 
 - 定位三个广告视图的类名，我们可以利用Xcode自带的页面调试工具，展开这三个页面。先说说比较容易解决的第二个，中间那个原生的的广告，其使用的类是<code>ESBookConnateView</code>,找到这个类的头文件，直接修改其初始化方法，让其返回一个frame为零的空视图。直接上代码
