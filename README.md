@@ -20,9 +20,9 @@
 - 按照正常的写代码命名逻辑，猜测其方法可能为showAd,我们在所有的这些头文件中全局搜索该方法，果不其然。这里我以宜搜小说app举例子，破解过程中发现破解它广告的难度比较大。列举需要破解的广告(底部web广告，原生范围广告，开屏广告)，任务艰巨呀。
 
 <div style={display: flex}>
-<img src="http://7xsim2.com1.z0.glb.clouddn.com/IMG_01662.PNG" width = 200px />
-<img src="http://7xsim2.com1.z0.glb.clouddn.com/IMG_01673fg.PNG" width = 200px />
-<img src="http://7xsim2.com1.z0.glb.clouddn.com/IMG_01654.PNG" width = 200px />
+<img src="./imgs/IMG_01662.png" width = 200px />
+<img src="./imgs/IMG_01673fg.png" width = 200px />
+<img src="./imgs/IMG_009iofjcv.png" width = 200px />
 </div>
 
 - 定位三个广告视图的类名，我们可以利用Xcode自带的页面调试工具，展开这三个页面。先说说比较容易解决的第二个，中间那个原生的的广告，其使用的类是<code>ESBookConnateView</code>,找到这个类的头文件，直接修改其初始化方法，让其返回一个frame为零的空视图。直接上代码
