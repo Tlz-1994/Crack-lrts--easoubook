@@ -12,15 +12,28 @@
 		C63AC1AA1E8392210094B1C5 /* IPAPatchBypassAntiDebugging.h in Headers */ = {isa = PBXBuildFile; fileRef = C63AC1A81E8392210094B1C5 /* IPAPatchBypassAntiDebugging.h */; };
 		C63AC1AB1E8392210094B1C5 /* IPAPatchBypassAntiDebugging.m in Sources */ = {isa = PBXBuildFile; fileRef = C63AC1A91E8392210094B1C5 /* IPAPatchBypassAntiDebugging.m */; };
 		C64288391E7BF9E900C0BBB0 /* ProjectConfigurationWarning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C64288371E7BF9E900C0BBB0 /* ProjectConfigurationWarning.cpp */; };
+		C69959701E83C4B4008DBCE6 /* Cycript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C699596F1E83C4B4008DBCE6 /* Cycript.framework */; };
+		C69959731E83C4F9008DBCE6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C69959721E83C4F9008DBCE6 /* libc++.tbd */; };
+		C69959751E83C500008DBCE6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69959741E83C500008DBCE6 /* JavaScriptCore.framework */; };
+		C69959771E83C508008DBCE6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C69959761E83C508008DBCE6 /* libsqlite3.tbd */; };
+		C69959791E83C87E008DBCE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69959781E83C87E008DBCE6 /* UIKit.framework */; };
 		C6B263271E7BC9DF009B4DEA /* IPAPatchEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B263251E7BC9DF009B4DEA /* IPAPatchEntry.h */; };
+		C6B263281E7BC9DF009B4DEA /* IPAPatchEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = C6B263261E7BC9DF009B4DEA /* IPAPatchEntry.mm */; };
 		C6B2634D1E7BCB31009B4DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B2634C1E7BCB31009B4DEA /* main.m */; };
 		C6B263501E7BCB31009B4DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B2634F1E7BCB31009B4DEA /* AppDelegate.m */; };
-		DA15433F1EA9D68500C2EE0B /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = DA15433C1EA9D68500C2EE0B /* Aspects.h */; };
-		DA1543401EA9D68500C2EE0B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = DA15433D1EA9D68500C2EE0B /* Aspects.m */; };
-		DA1543411EA9D68500C2EE0B /* Cycript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15433E1EA9D68500C2EE0B /* Cycript.framework */; };
-		DA1543441EA9D69200C2EE0B /* JSHookUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1543421EA9D69200C2EE0B /* JSHookUtility.h */; };
-		DA1543451EA9D69200C2EE0B /* JSHookUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1543431EA9D69200C2EE0B /* JSHookUtility.m */; };
-		DA1543471EA9D6BE00C2EE0B /* IPAPatchEntry.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA1543461EA9D6BE00C2EE0B /* IPAPatchEntry.mm */; };
+		DA1543331EA99B2800C2EE0B /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1543321EA99B2800C2EE0B /* libc++.1.tbd */; };
+		DA1543341EA99B3100C2EE0B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C69959721E83C4F9008DBCE6 /* libc++.tbd */; };
+		DA1543361EA99B3A00C2EE0B /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1543351EA99B3A00C2EE0B /* libc++abi.tbd */; };
+		DA1543371EA99B4600C2EE0B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB93811E8A721F006CDCF8 /* libstdc++.6.0.9.tbd */; };
+		DA1543391EA99B4B00C2EE0B /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1543381EA99B4B00C2EE0B /* libstdc++.6.tbd */; };
+		DA15433B1EA99B5100C2EE0B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DA15433A1EA99B5100C2EE0B /* libstdc++.tbd */; };
+		DA6731CE1E8E47C400234F32 /* JSHookUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6731CC1E8E47C400234F32 /* JSHookUtility.h */; };
+		DA6731CF1E8E47C400234F32 /* JSHookUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6731CD1E8E47C400234F32 /* JSHookUtility.m */; };
+		DA6731D01E8E47C400234F32 /* JSHookUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6731CD1E8E47C400234F32 /* JSHookUtility.m */; };
+		DA6731D31E8E488D00234F32 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6731D11E8E488D00234F32 /* Aspects.h */; };
+		DA6731D41E8E488D00234F32 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6731D21E8E488D00234F32 /* Aspects.m */; };
+		DA6731D51E8E488D00234F32 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6731D21E8E488D00234F32 /* Aspects.m */; };
+		DACB93831E8A7265006CDCF8 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB93811E8A721F006CDCF8 /* libstdc++.6.0.9.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,21 +54,32 @@
 		C63AC1A91E8392210094B1C5 /* IPAPatchBypassAntiDebugging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAPatchBypassAntiDebugging.m; sourceTree = "<group>"; };
 		C64288371E7BF9E900C0BBB0 /* ProjectConfigurationWarning.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProjectConfigurationWarning.cpp; sourceTree = "<group>"; };
 		C64288381E7BF9E900C0BBB0 /* ProjectConfigurationWarning.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProjectConfigurationWarning.hpp; sourceTree = "<group>"; };
+		C699596F1E83C4B4008DBCE6 /* Cycript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cycript.framework; sourceTree = "<group>"; };
+		C69959721E83C4F9008DBCE6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C69959741E83C500008DBCE6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C69959761E83C508008DBCE6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C69959781E83C87E008DBCE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C6B263071E7BC97B009B4DEA /* IPAPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IPAPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B2630B1E7BC97B009B4DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B263251E7BC9DF009B4DEA /* IPAPatchEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAPatchEntry.h; sourceTree = "<group>"; };
+		C6B263261E7BC9DF009B4DEA /* IPAPatchEntry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IPAPatchEntry.mm; sourceTree = "<group>"; };
 		C6B263491E7BCB31009B4DEA /* IPAPatch-DummyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IPAPatch-DummyApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B2634C1E7BCB31009B4DEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6B2634E1E7BCB31009B4DEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6B2634F1E7BCB31009B4DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C6B2635C1E7BCB31009B4DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B263621E7BCD03009B4DEA /* patch.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = patch.sh; sourceTree = "<group>"; };
-		DA15433C1EA9D68500C2EE0B /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
-		DA15433D1EA9D68500C2EE0B /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
-		DA15433E1EA9D68500C2EE0B /* Cycript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cycript.framework; sourceTree = "<group>"; };
-		DA1543421EA9D69200C2EE0B /* JSHookUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHookUtility.h; sourceTree = "<group>"; };
-		DA1543431EA9D69200C2EE0B /* JSHookUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSHookUtility.m; sourceTree = "<group>"; };
-		DA1543461EA9D6BE00C2EE0B /* IPAPatchEntry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IPAPatchEntry.mm; sourceTree = "<group>"; };
+		DA1543321EA99B2800C2EE0B /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		DA1543351EA99B3A00C2EE0B /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		DA1543381EA99B4B00C2EE0B /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		DA15433A1EA99B5100C2EE0B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DA6731CC1E8E47C400234F32 /* JSHookUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHookUtility.h; sourceTree = "<group>"; };
+		DA6731CD1E8E47C400234F32 /* JSHookUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSHookUtility.m; sourceTree = "<group>"; };
+		DA6731D11E8E488D00234F32 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		DA6731D21E8E488D00234F32 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		DA6731E51E8E57C900234F32 /* libdl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libdl.tbd; path = usr/lib/libdl.tbd; sourceTree = SDKROOT; };
+		DA8C7FB11E9C854500DCF814 /* IPAPatch-DummyApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IPAPatch-DummyApp.entitlements"; sourceTree = "<group>"; };
+		DACB93811E8A721F006CDCF8 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +87,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA1543411EA9D68500C2EE0B /* Cycript.framework in Frameworks */,
+				DACB93831E8A7265006CDCF8 /* libstdc++.6.0.9.tbd in Frameworks */,
+				C69959791E83C87E008DBCE6 /* UIKit.framework in Frameworks */,
+				C69959771E83C508008DBCE6 /* libsqlite3.tbd in Frameworks */,
+				C69959751E83C500008DBCE6 /* JavaScriptCore.framework in Frameworks */,
+				C69959731E83C4F9008DBCE6 /* libc++.tbd in Frameworks */,
+				C69959701E83C4B4008DBCE6 /* Cycript.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +100,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA15433B1EA99B5100C2EE0B /* libstdc++.tbd in Frameworks */,
+				DA1543391EA99B4B00C2EE0B /* libstdc++.6.tbd in Frameworks */,
+				DA1543371EA99B4600C2EE0B /* libstdc++.6.0.9.tbd in Frameworks */,
+				DA1543361EA99B3A00C2EE0B /* libc++abi.tbd in Frameworks */,
+				DA1543341EA99B3100C2EE0B /* libc++.tbd in Frameworks */,
+				DA1543331EA99B2800C2EE0B /* libc++.1.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +130,23 @@
 			path = fishhook;
 			sourceTree = "<group>";
 		};
+		C69959711E83C4F8008DBCE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA15433A1EA99B5100C2EE0B /* libstdc++.tbd */,
+				DA1543381EA99B4B00C2EE0B /* libstdc++.6.tbd */,
+				DA1543351EA99B3A00C2EE0B /* libc++abi.tbd */,
+				DA1543321EA99B2800C2EE0B /* libc++.1.tbd */,
+				DA6731E51E8E57C900234F32 /* libdl.tbd */,
+				DACB93811E8A721F006CDCF8 /* libstdc++.6.0.9.tbd */,
+				C69959781E83C87E008DBCE6 /* UIKit.framework */,
+				C69959761E83C508008DBCE6 /* libsqlite3.tbd */,
+				C69959741E83C500008DBCE6 /* JavaScriptCore.framework */,
+				C69959721E83C4F9008DBCE6 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6B262FD1E7BC97B009B4DEA = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +154,7 @@
 				C6B263291E7BCA86009B4DEA /* Tools */,
 				C6B2634A1E7BCB31009B4DEA /* IPAPatch-DummyApp */,
 				C6B263081E7BC97B009B4DEA /* Products */,
+				C69959711E83C4F8008DBCE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,15 +172,15 @@
 			children = (
 				C63AC1A01E838B8E0094B1C5 /* Vendors */,
 				C6B2630B1E7BC97B009B4DEA /* Info.plist */,
-				DA1543421EA9D69200C2EE0B /* JSHookUtility.h */,
-				DA1543431EA9D69200C2EE0B /* JSHookUtility.m */,
-				DA15433C1EA9D68500C2EE0B /* Aspects.h */,
-				DA15433D1EA9D68500C2EE0B /* Aspects.m */,
-				DA15433E1EA9D68500C2EE0B /* Cycript.framework */,
+				DA6731D11E8E488D00234F32 /* Aspects.h */,
+				DA6731D21E8E488D00234F32 /* Aspects.m */,
+				DA6731CC1E8E47C400234F32 /* JSHookUtility.h */,
+				DA6731CD1E8E47C400234F32 /* JSHookUtility.m */,
 				C6B263251E7BC9DF009B4DEA /* IPAPatchEntry.h */,
-				DA1543461EA9D6BE00C2EE0B /* IPAPatchEntry.mm */,
+				C6B263261E7BC9DF009B4DEA /* IPAPatchEntry.mm */,
 				C63AC1A81E8392210094B1C5 /* IPAPatchBypassAntiDebugging.h */,
 				C63AC1A91E8392210094B1C5 /* IPAPatchBypassAntiDebugging.m */,
+				C699596F1E83C4B4008DBCE6 /* Cycript.framework */,
 			);
 			path = IPAPatch;
 			sourceTree = "<group>";
@@ -143,6 +196,7 @@
 		C6B2634A1E7BCB31009B4DEA /* IPAPatch-DummyApp */ = {
 			isa = PBXGroup;
 			children = (
+				DA8C7FB11E9C854500DCF814 /* IPAPatch-DummyApp.entitlements */,
 				C6B2634E1E7BCB31009B4DEA /* AppDelegate.h */,
 				C6B2634F1E7BCB31009B4DEA /* AppDelegate.m */,
 				C64288381E7BF9E900C0BBB0 /* ProjectConfigurationWarning.hpp */,
@@ -168,11 +222,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6731D31E8E488D00234F32 /* Aspects.h in Headers */,
 				C6B263271E7BC9DF009B4DEA /* IPAPatchEntry.h in Headers */,
 				C63AC1A61E838BB70094B1C5 /* fishhook.h in Headers */,
-				DA15433F1EA9D68500C2EE0B /* Aspects.h in Headers */,
 				C63AC1AA1E8392210094B1C5 /* IPAPatchBypassAntiDebugging.h in Headers */,
-				DA1543441EA9D69200C2EE0B /* JSHookUtility.h in Headers */,
+				DA6731CE1E8E47C400234F32 /* JSHookUtility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,13 +281,17 @@
 				TargetAttributes = {
 					C6B263061E7BC97B009B4DEA = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = DMJXDB9H6Q;
+						DevelopmentTeam = DZNJ4F4E32;
 						ProvisioningStyle = Automatic;
 					};
 					C6B263481E7BCB31009B4DEA = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = DMJXDB9H6Q;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -294,11 +352,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6731D51E8E488D00234F32 /* Aspects.m in Sources */,
+				DA6731D01E8E47C400234F32 /* JSHookUtility.m in Sources */,
 				C63AC1AB1E8392210094B1C5 /* IPAPatchBypassAntiDebugging.m in Sources */,
+				C6B263281E7BC9DF009B4DEA /* IPAPatchEntry.mm in Sources */,
 				C63AC1A51E838BB70094B1C5 /* fishhook.c in Sources */,
-				DA1543471EA9D6BE00C2EE0B /* IPAPatchEntry.mm in Sources */,
-				DA1543401EA9D68500C2EE0B /* Aspects.m in Sources */,
-				DA1543451EA9D69200C2EE0B /* JSHookUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +364,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6731D41E8E488D00234F32 /* Aspects.m in Sources */,
+				DA6731CF1E8E47C400234F32 /* JSHookUtility.m in Sources */,
 				C64288391E7BF9E900C0BBB0 /* ProjectConfigurationWarning.cpp in Sources */,
 				C6B263501E7BCB31009B4DEA /* AppDelegate.m in Sources */,
 				C6B2634D1E7BCB31009B4DEA /* main.m in Sources */,
@@ -426,7 +486,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = DMJXDB9H6Q;
+				DEVELOPMENT_TEAM = DZNJ4F4E32;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -437,10 +497,8 @@
 				);
 				INFOPLIST_FILE = IPAPatch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wutian.IPAPatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.52jiaoshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -451,7 +509,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = DMJXDB9H6Q;
+				DEVELOPMENT_TEAM = DZNJ4F4E32;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -462,9 +520,8 @@
 				);
 				INFOPLIST_FILE = IPAPatch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wutian.IPAPatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.52jiaoshi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -474,8 +531,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
-				DEVELOPMENT_TEAM = DMJXDB9H6Q;
-				ENABLE_BITCODE = NO;
+				CODE_SIGN_ENTITLEMENTS = "IPAPatch-DummyApp/IPAPatch-DummyApp.entitlements";
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -484,8 +541,9 @@
 				INFOPLIST_FILE = "IPAPatch-DummyApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wutian.example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.gongji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -493,14 +551,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
-				DEVELOPMENT_TEAM = DMJXDB9H6Q;
-				ENABLE_BITCODE = NO;
+				CODE_SIGN_ENTITLEMENTS = "IPAPatch-DummyApp/IPAPatch-DummyApp.entitlements";
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_BUNDLE_ID=$(PRODUCT_BUNDLE_IDENTIFIER)";
 				INFOPLIST_FILE = "IPAPatch-DummyApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wutian.example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.gongji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
