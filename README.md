@@ -48,7 +48,7 @@
     }error:nil];
 ````
 
-- 最后来讲讲开屏的那一块让人头疼的大页面广告，利用Xcode的页面分析工具后发现其直接使用的是UIImageView和UIButton实现，根本不知道其视图类是哪个。所以我的解决思路是直接找到该页面的Controller，从Controlleer中找到自己需要的方法。因为基本所有的开屏广告都会提供跳过的按钮选项，所以我们可以直接在<code>-(BOOL)viewWillAppear</code>这个方法中手动调用该方法。...........................................大概找了这么久，终于找到了这个Controller<code>EasouSplashAdVC</code>。既然找到了你，马上写代码。解释一下，aspectInfo.instance为一个类的实例，也就是当前初始化生成的实例。
+- 最后来讲讲开屏的那一块让人头疼的大页面广告，利用Xcode的页面分析工具后发现其直接使用的是UIImageView和UIButton实现，根本不知道其视图类是哪个。所以我的解决思路是直接找到该页面的Controller，从Controller中找到自己需要的方法。因为基本所有的开屏广告都会提供跳过的按钮选项，所以我们可以直接在<code>-(BOOL)viewWillAppear</code>这个方法中手动调用该方法。...........................................大概找了这么久，终于找到了这个Controller<code>EasouSplashAdVC</code>。既然找到了你，马上写代码。解释一下，aspectInfo.instance为一个类的实例，也就是当前初始化生成的实例。
 
 ````
     Class cls = NSClassFromString(@"EasouSplashAdVC");
