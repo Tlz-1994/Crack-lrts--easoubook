@@ -1,3 +1,6 @@
+
+### 本项目不再维护，有需要的同学可以直接去这个<a href="https://github.com/Naituw/IPAPatch">IPAPatch</a> 地址 clone 原始的项目代码。本项目主要是提供给大家一个思考方式，如何定位和解决问题。
+
 # Crack-lrts--easoubook
 破解懒人听书和宜搜小说，去除内置广告，宜搜小说开屏广告也去了，该代码仅供学习使用，如有侵权，我会立马删除
 
